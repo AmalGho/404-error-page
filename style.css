@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cairo:wght@200;300;400;500;600;700;800;900&family=Cinzel:wght@400;500;600;700;800;900&family=Gideon+Roman&family=IM+Fell+French+Canon+SC&family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shalimar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cinzel:wght@400;500;600;700;800;900&family=Gideon+Roman&family=IM+Fell+French+Canon+SC&family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shalimar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Gideon+Roman&family=IM+Fell+French+Canon+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shalimar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cinzel:wght@400;500;600;700;800;900&family=Gideon+Roman&family=IM+Fell+French+Canon+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shalimar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cinzel:wght@400;500;600;700;800;900&family=Gideon+Roman&family=IM+Fell+French+Canon+SC&family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shalimar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cinzel:wght@400;500;600;700;800;900&family=Gideon+Roman&family=IM+Fell+French+Canon+SC&family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shalimar&display=swap');
+*{
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    /*top-bottom right-left */
+    padding: 20px 200px;
+    border-bottom: dotted lightgray;
+}
+
+.navigation a{
+    display: inline-block;
+    color: #070707;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-right: 30px;
+    margin-top: 10px;   
+}
+
+header h1 {
+    font-size: 3em;
+    font-family: 'Amatic SC', cursive;    
+}
+
+
+.join-btn {
+    text-decoration: none;
+    padding: 5px 20px;
+    background-color: #e3386a;
+    color: #fff !important;
+    box-shadow: 0 2px 4px black;
+    border-radius: 10px;
+    font-weight: 600 !important;
+}
+
+section{
+    padding: 150px 10px;
+}
+
+.main{
+    width: 100%;
+    /*vh = view port = all screen*/
+    min-height: 100vh;
+    display: flex;
+    /*should be with flex*/
+    align-items: center;
+    justify-content: center;
+}
+
+.desc{
+    width: 30%;
+    height: 40%;
+    border-radius: 10px ;
+    padding: 10px 20px;
+    box-shadow: 0 1px 4px black;
+    text-align: center;
+    
+}
+
+.desc h1 {
+    font-size: 3em;
+}
+
+.desc h1 sub {
+    font-weight: 100;
+}
+
+.desc p{
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    font-weight: 100;
+
+}
+
+
+.desc .first-btn{
+    color: #e3386a;
+    font-weight: 600;
+}
+
+.img{
+    width: 50%;
+}
+
+.img img {
+    position: fixed;
+    bottom: 0%;
+    right: 3%;
+    width: 50%;
+}
+
+.social-icon {
+    display: flex;
+    margin-top: 30px;
+}
+
+footer{
+    position: fixed;
+    left: 2%;
+    bottom: 60%;
+    top: 40%;
+    display: flex;
+    flex-direction: column;
+}
+footer a{
+    color: #f1e510;
+    padding-right: 30px;
+    font-size: 1.5em;
+    filter: drop-shadow(0 1px 1px black);
+}
+
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+
+    .navigation a {
+        padding-right: 20px;
+    }
+
+    .main {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .desc{
+        margin-top: 30px;
+        height: 50%;
+        width: 100%;
+    }
+
+    .desc h1 {
+        font-size: 2.2em;
+    }
+
+    .desc p{
+        margin-top: 20px;
+        line-height: 1.8em;
+    }
+
+    .desc .first-btn {
+        padding: 10px 20px;
+    }
+
+    .img{
+        height: 30%;
+        width: 100%;
+        margin-right:0%;
+    }
+
+    .img img {
+        position: static;
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media (max-width: 641px){
+    body{
+        /* means 1em = 12px */
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 300px){
+    body {
+        /* means 1em = 10 px*/
+        font-size: 10px;
+    }
+}
